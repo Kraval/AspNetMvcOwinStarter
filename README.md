@@ -2,11 +2,11 @@
 
 Start by creating a new .Net MVC Application
 
-![New Project](images/create_project.png?raw=true "Create Empty Project")
+![New Project](Images/create_project.png?raw=true "Create Empty Project")
 
 Let's pick Empty as we will add the needed packages ourselves.
 
-![Select Empty](images/empty_template.png?raw=true "Pick Empty")
+![Select Empty](Images/empty_template.png?raw=true "Pick Empty")
 
 `
 install-package Microsoft.AspNet.Mvc
@@ -22,7 +22,7 @@ install-package Microsoft.AspNet.Mvc
  install-package Microsoft.Owin.Host.SystemWeb
  `
  Add Startup.cs class and decorate the Namespace with the OwinStartup Attribute.
-![Owin Startup](images/startup_cs.png?raw=true "Startup")
+![Owin Startup](Images/startup_cs.png?raw=true "Startup")
 
 
  `
@@ -31,7 +31,7 @@ install-package Microsoft.AspNet.Mvc
 
  Create App_Start folder and add RouteConfig.cs and WebApiConfig.cs files to it.
 
-![App_Start](images/app_start.png?raw=true "Startup")
+![App_Start](Images/app_start.png?raw=true "Startup")
 
  Following are the most basic configuration needed on those two files. 
 
@@ -64,11 +64,11 @@ public static void Register(HttpConfiguration config)
 `
 Add Controllers folder under the solution and an Empty MVC5 Controller. The Controller comes with empty Index method.
 
-![Add Controller](images/controllers.png?raw=true "Startup")
+![Add Controller](Images/controllers.png?raw=true "Startup")
 
 Add a view Just by Rigth clicking on the Index action method. Note when you do this, it also adds Bootstrap and jQuery as a dependency in your project along with _ViewStart.cshtml and _Layout.cshtml files with bootstrap auto configured.
 
-![Add View](images/add_view.png?raw=true "Add View")
+![Add View](Images/add_view.png?raw=true "Add View")
 
 Add a web.config file under your Views folder and copy content from the template here. **Make sure to update the Assembly Versions of the MVC in case it is different from what I have here.**
 
