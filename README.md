@@ -95,5 +95,5 @@ public class Startup
 
 Hit F5 and you should see a nice Index page as below. 
 
-![Run the app](images/running_app.png?raw=true "Running App")
+![Run the app](Images/running_app.png?raw=true "Running App")
 
